@@ -2,6 +2,7 @@
   "name": "react-complete-guide",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vchandwani.github.io/react-blog/",
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
