@@ -1,20 +1,30 @@
-.Post {
-    width: 250px;
-    padding: 16px;
-    text-align: center;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
-    margin: 10px;
-    box-sizing: border-box;
-    cursor: pointer;
+.PostDiv {
+	border: 1px solid #eee;
+	box-shadow: 0 2px 3px #ccc;
+	color: #808080;
+	width: 100%;
+	box-sizing: border-box;
+	cursor: pointer;
+	position: relative;
+}
+.Height100 {
+	height: 100%;
 }
 
-.Post:hover,
-.Post:active {
-    background-color: #C0DDF5;
+.PostDiv:hover,
+.PostDiv:active {
+	background-color: #cecece;
 }
 
 .Author {
-    margin: 16px 0;
-    color: #ccc;
+	margin: 16px 0;
+	color: #ccc;
+}
+.ReadMore {
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+}
+.Info {
+	margin: 10px 0px;
 }

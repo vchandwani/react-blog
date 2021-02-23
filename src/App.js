@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Blog from './containers/Blog/Blog';
+import Blog from "./containers/Blog/Blog";
+import Container from "react-bootstrap/Container";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Blog />
-      </div>
-    );
-  }
+	render() {
+		return (
+			<Container>
+				<Blog />
+			</Container>
+		);
+	}
 }
 
 export default App;
