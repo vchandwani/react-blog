@@ -6,6 +6,7 @@
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "classnames": "^2.2.6",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.0",
     "react-bootstrap": "^1.5.0",
     "react-dom": "^17.0.0",
@@ -16,7 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "eslint-check": "eslint --print-config src/App.js | eslint-config-prettier-check"
+    "eslint-check": "eslint --print-config src/App.js | eslint-config-prettier-check",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
