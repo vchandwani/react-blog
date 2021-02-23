@@ -13,13 +13,13 @@
     "react-scripts": "3.4.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "eslint-check": "eslint --print-config src/App.js | eslint-config-prettier-check",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/vchandwani/react-blog.git"
+    "eslint-check": "eslint --print-config src/App.js | eslint-config-prettier-check"
   },
   "browserslist": {
     "production": [
