@@ -1,0 +1,9 @@
+.LoadMoreDiv {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.LoadMore {
+	color: red;
+	border: 1px solid red;
+}
