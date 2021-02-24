@@ -1,5 +1,11 @@
 Live version : https://vchandwani.github.io/react-blog/index.html
 
+# Features for Future
+
+More test coverage can be added
+This application add Blog post and which is displayed on the page(4 initally)
+Further function to edit can be added and delete can be improved
+
 # Getting Started with Create React App
 
 1. Run "npm install" in the extracted folder
