@@ -4,19 +4,23 @@ Live version : https://vchandwani.github.io/react-blog/index.html
 
 eslint configuration is handled via file .eslintrc.json
 editor configuration is handled via file .editorconfig
+Data is posted and fateched from the URL https://jsonplaceholder.typicode.com/posts/
 
 # Features for Future
 
 More test coverage can be added
 This application add Blog post and which is displayed on the page(4 initally)
 Further function to edit can be added and delete can be improved
+React hooks to be used across the project
 
 # Getting Started with Create React App
 
 1. Run "npm install" in the extracted folder
 2. Run "npm start" to view the project
 3. Run "npm run deploy" to deploy app on GitHu Pages
-   This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+4. Run "npm test" to execute test cases
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
