@@ -9,10 +9,10 @@ async function loadPost(id) {
 			// response - object, eg { status: 200, message: 'OK' }
 			return response.data;
 		} else {
-			return null;
+			throw Error("Error");
 		}
 	} catch (err) {
-		return null;
+		throw Error("Error");
 	}
 }
 
