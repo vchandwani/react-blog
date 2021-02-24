@@ -1,6 +1,7 @@
 import React from "react";
 import Enzyme, { shallow } from "enzyme";
-import Adapter from "enzyme-adapter-react-16";
+// import Adapter from "enzyme-adapter-react-16";
+import Adapter from "@wojtekmaj/enzyme-adapter-react-17";
 import Post from "./Post";
 import { findByTestAttr } from "../../../test/testUtils";
 

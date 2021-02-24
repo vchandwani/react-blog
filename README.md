@@ -1,5 +1,9 @@
 Live version : https://vchandwani.github.io/react-blog/
 
+React : 17.0.1
+Node :v14.8.0
+NPM : 6.13.7
+
 # Application Information
 
 eslint configuration is handled via file .eslintrc.json

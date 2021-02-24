@@ -72,7 +72,7 @@ const Blog = () => {
 	});
 
 	return (
-		<>
+		<React.Fragment>
 			<Row>
 				<Col xs={12}>
 					<h2>Add Articles</h2>
@@ -106,7 +106,7 @@ const Blog = () => {
 			<Row>
 				<NewPost />
 			</Row>
-		</>
+		</React.Fragment>
 	);
 };
 
