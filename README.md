@@ -1,4 +1,4 @@
-Live version : https://vchandwani.github.io/react-blog/index.html
+Live version : https://vchandwani.github.io/react-blog/
 
 # Application Information
 
