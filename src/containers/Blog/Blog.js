@@ -75,7 +75,7 @@ const Blog = () => {
 		<React.Fragment>
 			<Row>
 				<Col xs={12}>
-					<h2>Add Articles</h2>
+					<h2>Add A</h2>
 				</Col>
 			</Row>
 			<Row>
