@@ -1,5 +1,10 @@
 Live version : https://vchandwani.github.io/react-blog/index.html
 
+# Application Information
+
+eslint configuration is handled via file .eslintrc.json
+editor configuration is handled via file .editorconfig
+
 # Features for Future
 
 More test coverage can be added
@@ -10,8 +15,8 @@ Further function to edit can be added and delete can be improved
 
 1. Run "npm install" in the extracted folder
 2. Run "npm start" to view the project
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+3. Run "npm run deploy" to deploy app on GitHu Pages
+   This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
