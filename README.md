@@ -73,22 +73,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-Repo details
-
-…or create a new repository on the command line
-echo "# react-deploy" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/vchandwani/react-deploy.git
-git push -u origin main
-…or push an existing repository from the command line
-git remote add origin https://github.com/vchandwani/react-deploy.git
-git branch -M main
-git push -u origin main
-…or import code from another repository
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
-
-http://Vchandwani.github.io/react-deploy
