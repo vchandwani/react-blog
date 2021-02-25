@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { Col, Row, Button } from "react-bootstrap";
-import Post from "../../components/Post/Post";
-import FullPost from "../../components/FullPost/FullPost";
-import NewPost from "../../components/NewPost/NewPost";
-import "./Blog.css";
-import { loadPost } from "../../utils/loadPost";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import { Col, Row, Button } from 'react-bootstrap';
+import Post from '../../components/Post/Post';
+import FullPost from '../../components/FullPost/FullPost';
+import NewPost from '../../components/NewPost/NewPost';
+import './Blog.css';
+import { loadPost } from '../../utils/loadPost';
 
 const Blog = () => {
 	const [posts, setPosts] = useState([]);
@@ -16,12 +16,12 @@ const Blog = () => {
 	const [loading, setLoading] = useState(false);
 
 	useEffect(() => {
-		axios.get("https://jsonplaceholder.typicode.com/posts").then((response) => {
+		axios.get('https://jsonplaceholder.typicode.com/posts').then((response) => {
 			const postsResponse = response.data;
 			const updatedPosts = postsResponse.map((post) => {
 				return {
 					...post,
-					author: "Varun",
+					author: 'Varun',
 				};
 			});
 			setPosts(updatedPosts);
@@ -75,7 +75,7 @@ const Blog = () => {
 		<React.Fragment>
 			<Row>
 				<Col xs={12}>
-					<h2>Add A</h2>
+					<h2>Add Articles!</h2>
 				</Col>
 			</Row>
 			<Row>
@@ -87,12 +87,12 @@ const Blog = () => {
 			<Row>
 				<Col className="LoadMoreDiv">
 					<Button
-						classes={"LoadMore"}
+						classes={'LoadMore'}
 						variant="secondary"
 						onClick={() => loadMore()}
 					>
-						{" "}
-						Load More{" "}
+						{' '}
+						Load More{' '}
 					</Button>
 				</Col>
 			</Row>
