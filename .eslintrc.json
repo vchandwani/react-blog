@@ -64,7 +64,7 @@ module.exports = {
       'error',
       {
         case: 'camelCase',
-        ignore: ['App.tsx'],
+        ignore: ['App.js'],
       },
     ],
   },
@@ -73,7 +73,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['src/components/**/*.tsx'],
+      files: ['src/components/**/*.js'],
       rules: {
         'unicorn/filename-case': [
           'error',
@@ -84,7 +84,7 @@ module.exports = {
       },
     },
     {
-      files: ['src/pages/**/*.tsx'],
+      files: ['src/pages/**/*.js'],
       rules: {
         'unicorn/filename-case': [
           'error',

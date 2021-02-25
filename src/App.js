@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import Blog from "./containers/Blog/Blog";
-import Container from "react-bootstrap/Container";
+import Blog from './containers/Blog/Blog';
+import Container from 'react-bootstrap/Container';
 
 class App extends Component {
 	render() {
